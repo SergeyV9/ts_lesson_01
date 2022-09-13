@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SergeyV9/ts_lesson_01/issues"
   },
-  "homepage": "https://github.com/SergeyV9/ts_lesson_01#readme"
+  "homepage": "https://github.com/SergeyV9/ts_lesson_01#readme",
+  "dependencies": {
+    "telegraf": "^4.9.1"
+  }
 }
