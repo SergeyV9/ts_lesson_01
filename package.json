@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.ts",
+    "start": "ts-node src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/SergeyV9/ts_lesson_01#readme",
   "dependencies": {
     "telegraf": "^4.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ts-node": "^10.9.1"
   }
 }

@@ -1,7 +1,7 @@
+// const { Telegraf } = require('telegraf');
+import { Telegraf } from 'telegraf';
 
 const bottoken = "5681165044:AAFRDAlJ1t3SQ2j65tGQ1GrFQVSkaMg4jbI"
-
-const { Telegraf } = require('telegraf');
 
 const bot = new Telegraf(bottoken);
 bot.start((ctx) => ctx.reply('Welcome'));
